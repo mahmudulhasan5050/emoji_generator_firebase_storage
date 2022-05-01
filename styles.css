@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 100%;
+  }
+  .btn {
+    display: block;
+    padding: 0.3em 1.2em;
+    margin: auto;
+    margin-top: 1.5em;
+    background-color: #00811c;
+    border: 0.16em solid rgba(255, 255, 255, 0);
+    border-radius: 1em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    text-align: center;
+    transition: all 0.2s;
+  }
+  .btn:hover {
+    border-color: rgb(164, 223, 159);
+    background-color: #245c30;
+  }
+  .formOpenBtn {
+    width: 100%;
+  }
+  .output {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .block {
+    text-align: center;
+  }
+  .emjName {
+    color: #f30800;
+    font-style: italic;
+    font-weight: 400;
+    padding-left: 1em;
+  }
+
+  .form-popup {
+    display: none;
+    position: relative;
+    right: auto;
+    border: 3px solid #f1f1f1;
+  }
+  .form-container {
+    display: block;
+    max-width: 300px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+  }
